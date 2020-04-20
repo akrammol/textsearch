@@ -29,10 +29,10 @@
         <property name="hibernate.dbcp.maxIdle">10</property>
         <property name="hibernate.dbcp.minIdle">5</property>
         <property name="hibernate.dbcp.maxWaitMillis">-1</property>
-        <mapping class="com.serrala.textserach.domain.A" />
-        <mapping class="com.serrala.textserach.domain.B" />
-        <mapping class="com.serrala.textserach.domain.C" />
-        <mapping class="com.serrala.textserach.domain.Text" />
+        <mapping class="com.serrala.textsearch.domain.A" />
+        <mapping class="com.serrala.textsearch.domain.B" />
+        <mapping class="com.serrala.textsearch.domain.C" />
+        <mapping class="com.serrala.textsearch.domain.Text" />
     </session-factory>
 </hibernate-configuration>
 

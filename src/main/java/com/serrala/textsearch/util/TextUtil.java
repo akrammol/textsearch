@@ -1,4 +1,4 @@
-package com.serrala.textserach.util;
+package com.serrala.textsearch.util;
 
 import org.apache.commons.lang3.StringUtils;
 

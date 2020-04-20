@@ -1,6 +1,6 @@
-package com.serrala.textserach.service;
+package com.serrala.textsearch.service;
 
-import com.serrala.textserach.dao.TextDao;
+import com.serrala.textsearch.dao.TextDao;
 
 import java.util.HashMap;
 import java.util.List;

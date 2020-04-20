@@ -1,6 +1,6 @@
-package com.serrala.textserach;
+package com.serrala.textsearch;
 
-import com.serrala.textserach.service.TextService;
+import com.serrala.textsearch.service.TextService;
 
 import java.util.ArrayList;
 import java.util.List;

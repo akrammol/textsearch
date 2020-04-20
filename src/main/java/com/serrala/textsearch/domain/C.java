@@ -1,4 +1,4 @@
-package com.serrala.textserach.domain;
+package com.serrala.textsearch.domain;
 
 import org.hibernate.annotations.Table;
 

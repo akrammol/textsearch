@@ -1,7 +1,7 @@
-package com.serrala.textserach.dao;
+package com.serrala.textsearch.dao;
 
-import com.serrala.textserach.util.HibernateUtil;
-import com.serrala.textserach.util.TextUtil;
+import com.serrala.textsearch.util.HibernateUtil;
+import com.serrala.textsearch.util.TextUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.Session;
 
