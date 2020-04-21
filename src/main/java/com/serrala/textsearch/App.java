@@ -14,7 +14,7 @@ public class App {
         tableList.add("A");
         tableList.add("B");
         tableList.add("C");
-        Map<String, List<String>> strings = textService.stringListResult("jo%nson", tableList, "name", 100);
+        Map<String, List<String>> strings = textService.stringListResult("jo**son", tableList, "name", 100);
         System.out.println(strings);
     }
 }

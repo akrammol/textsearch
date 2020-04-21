@@ -19,7 +19,7 @@ public class TextService {
      */
     public Map<String, List<String>> stringListResult(String searchterm, List<String> tableNames, String columnName, int limitText) {
         TextDao dao = new TextDao();
-
+        searchterm=searchterm.replaceAll("\\*", "%");
         Map<String, List<String>> searchResult = new HashMap<>();
         for (String tab : tableNames) {
             List<String> serralaSearchFunc = dao.getSerralaSearchFunc(tab, searchterm, columnName, limitText);
